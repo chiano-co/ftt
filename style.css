@@ -1,10 +1,44 @@
 /* Config. Inicial */
+/* Fuentes */
+@import url("https://fonts.googleapis.com/css?family=Poppins|Zilla+Slab&display=swap");
 body {
-  background-color: black;
+  background-color: white;
+  font-family: "Poppins", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.9);
 }
 
-.col-3 {
-  background-color: greenyellow;
+/* Variables */
+/* Headings */
+.zilla {
+  font-family: "Zilla Slab";
+}
+.zilla h1 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.zilla h3 {
+  font-size: 15px;
+}
+.zilla h5 {
+  font-size: 13px;
+}
+
+.description {
+  font-size: 15px;
+}
+
+/* Layout */
+/* Sidebar */
+.sidebar {
+  background-color: gainsboro;
+  padding: 50px;
+  height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
